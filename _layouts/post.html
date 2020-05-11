@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="post">
+
+    <div id="toc"></div>
+
+    {{ content }}
+
+    {%- if site.gitalk -%}
+        {%- include gitalk_comments.html -%}
+    {%- endif -%}
+
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#toc').toc();
+        console.log("ok");
+    });
+</script>
+

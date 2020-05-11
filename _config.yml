@@ -3,6 +3,16 @@ description: 欢迎光临
 show_downloads: false
 google_analytics: UA-153523414-1
 theme: jekyll-theme-cayman
+lang: zh-CN
+permalink: none
+date_format: '%-m月%-d日，%Y年'
 
 github:
   url: https://github.com/heyxiaobai
+
+gitalk:
+  clientID: ab5cdd26133ad97c2076
+  clientSecret: 6567e4ed9d66ee90819f3d11b04f0223f018441d
+  repo: heyxiaobai.github.io
+  owner: heyxiaobai
+  admin: heyxiaobai

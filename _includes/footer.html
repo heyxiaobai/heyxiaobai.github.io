@@ -1,0 +1,13 @@
+<footer class="site-footer">
+    {% if page.reference_url %}
+      <span class="site-footer-owner">
+        参考链接:
+        <ul>
+        {%- for url in page.reference_url -%}
+          <li><a href="{{ url }}"> {{ url | remove:'http://' | remove:'https://'}} </a></li>
+        {%- endfor -%}
+        </ul>
+      </span>
+    {% endif %}
+    <span class="site-footer-credits">此页面由 <a href="https://pages.github.com">GitHub Pages</a> 自动生成，所使用主题为 <a href="https://github.com/pages-themes/cayman">Cayman</a></span>
+</footer>
