@@ -11,8 +11,8 @@ github:
   url: https://github.com/heyxiaobai
 
 gitalk:
-  clientID: ab5cdd26133ad97c2076
-  clientSecret: 6567e4ed9d66ee90819f3d11b04f0223f018441d
-  repo: heyxiaobai.github.io
-  owner: heyxiaobai
+  clientID: e5ca1276c1f62b914904
+  clientSecret: 2da53bd6578a7fede484ba40cf6bc02bcc80f758
+  repo: xiaobaistudio.github.io
+  owner: xiaobaistudio
   admin: heyxiaobai
